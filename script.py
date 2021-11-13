@@ -18,11 +18,11 @@ from pdfminer.pdfparser import PDFParser
 lst = []
 file_names = []
 output_string = StringIO()
-for file in uploaded_files:
+for file in os.listdir('Assignment'):
     # print(f'{file}')
     # print("Assignment/{}".format(file))
     output_string = StringIO()
-    with open("{}".format(file), 'rb') as in_file:
+    with open("Assignment/{}".format(file), 'rb') as in_file:
         # output_string = ''
         # print(file)
         parser = PDFParser(in_file)
