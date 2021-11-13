@@ -5,7 +5,7 @@ dataset = st.container()
 
 import os
 import pandas as pd
-import cv2
+# import cv2
 import glob
 import regex as re
 # path = 'Assignment/*.pdf'

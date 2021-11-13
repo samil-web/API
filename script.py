@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-import cv2
+# import cv2
 import glob
 import regex as re
 from web_app import uploaded_files
